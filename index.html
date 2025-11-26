@@ -10,7 +10,7 @@
     body { background: #0f1232; color: #fff; }
 
     header { display: flex; justify-content: space-between; align-items: center; padding: 20px 60px; background: #0f1232; }
-    .logo-container { display: flex; align-items: center; }
+    .logo-container { display: flex; align-items: center; cursor: pointer; }
     .logo-container img { width: 40px; height: 40px; margin-right: 10px; }
     .logo-container h1 { font-size: 22px; color: #fff; }
 
@@ -46,14 +46,14 @@
 </head>
 <body>
   <header>
-    <div class="logo-container">
-      <img src="b8e401bd-f388-4170-ae76-e132a42623b3.png" alt="EZ Studio Logo" />
-      <h1>Ez Studio</h1>
+    <div class="logo-container" onclick="location.reload();">
+      <img src="icon.png" alt="EZ Studio Logo" />
+      <h1>EZ Studio</h1>
     </div>
     <nav>
       <a href="#">Home</a>
       <a href="#">Products</a>
-      <a href="#">Support</a>
+      <a href="https://youtube.com" target="_blank">Support</a>
       <a href="#">About</a>
       <a href="#" class="btn-login">Login with Discord</a>
     </nav>
