@@ -46,9 +46,10 @@
 </head>
 <body>
   <header>
-    <div class="logo-container">
-      <img src="icon.png" alt="EZ Studio Logo" id="logo" />
-      <h1 id="logo-text">EZ Studio</h1>
+    <!-- Hela containern klickbar -->
+    <div class="logo-container" onclick="location.reload();">
+      <img src="icon.png" alt="EZ Studio Logo" />
+      <h1>EZ Studio</h1>
     </div>
     <nav>
       <a href="#">Home</a>
@@ -85,17 +86,5 @@
   <footer>
     <p>© 2025 EZ Studio. Alla rättigheter förbehållna.</p>
   </footer>
-
-  <script>
-    // Klick på logotypen refreshar sidan
-    document.getElementById('logo').addEventListener('click', () => {
-      location.reload();
-    });
-
-    // Klick på texten EZ Studio refreshar sidan
-    document.getElementById('logo-text').addEventListener('click', () => {
-      location.reload();
-    });
-  </script>
 </body>
 </html>
