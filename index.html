@@ -1,11 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
-  <meta charset="UTF-8">
-  <title>Free Viruss!!!!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EZ Studio — Variant</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+    body { background: #0d0d0d; color: #fff; }
+
+    header { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: rgba(255,255,255,0.03); border-bottom: 1px solid rgba(255,255,255,0.1); position: sticky; top: 0; }
+
+    header h1 { font-size: 24px; letter-spacing: 1px; }
+
+    nav a { margin-left: 25px; color: #ccc; text-decoration: none; font-size: 15px; }
+    nav a:hover { color: #fff; }
+
+    .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; }
+
+    .hero h2 { font-size: 56px; max-width: 800px; line-height: 1.1; margin-bottom: 20px; }
+
+    .hero p { font-size: 18px; max-width: 600px; color: #bbb; margin-bottom: 35px; }
+
+    .btn-main { padding: 14px 28px; background: #fff; color: #000; font-weight: bold; border-radius: 8px; text-decoration: none; }
+    .btn-main:hover { background: #e6e6e6; }
+
+    .section { padding: 100px 40px; max-width: 1200px; margin: auto; }
+    .section h3 { font-size: 36px; margin-bottom: 20px; text-align: center; }
+
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }
+
+    .card { background: rgba(255,255,255,0.05); padding: 30px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.08); transition: 0.3s; }
+    .card:hover { transform: translateY(-8px); background: rgba(255,255,255,0.07); }
+
+    .card h4 { font-size: 22px; margin-bottom: 10px; }
+    .card p { color: #bbb; line-height: 1.5; }
+
+    footer { padding: 40px; text-align: center; background: rgba(255,255,255,0.03); border-top: 1px solid rgba(255,255,255,0.1); margin-top: 80px; }
+    footer p { color: #666; font-size: 14px; }
+  </style>
 </head>
 <body>
-  <h1>Hej världen!</h1>
-  <p>Fake_Corny Is Sigma</p>
+  <header>
+    <h1>EZ Studio</h1>
+    <nav>
+      <a href="#services">Tjänster</a>
+      <a href="#about">Om oss</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Modern digital design & smarta webblösningar</h2>
+    <p>Vi skapar avancerade hemsidor, branding och digitala upplevelser — snabbt, modernt och professionellt.</p>
+    <a class="btn-main" href="#services">Utforska tjänster</a>
+  </section>
+
+  <section id="services" class="section">
+    <h3>Våra tjänster</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Webbutveckling</h4>
+        <p>Responsiva och moderna hemsidor byggda för prestanda och stil.</p>
+      </div>
+      <div class="card">
+        <h4>Branding & Identitet</h4>
+        <p>Logotyper, visuella profiler och grafiska element som sticker ut.</p>
+      </div>
+      <div class="card">
+        <h4>UI / UX Design</h4>
+        <p>Användarvänliga och eleganta gränssnitt som förbättrar kundresan.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h3>Om oss</h3>
+    <p style="max-width:700px; margin:auto; text-align:center; color:#ccc; font-size:18px;">Vi är ett kreativt digitalt studio-team som fokuserar på kvalitet, snabb leverans och visuellt starka projekt. Vi kombinerar design och teknik för att skapa framtidens webbupplevelser.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Kontakt</h3>
+    <p style="max-width:700px; margin:auto; text-align:center; color:#ccc; font-size:18px;">Har du ett projekt i åtanke? Kontakta oss på <strong>info@ezstudio.se</strong></p>
+  </section>
+
+  <footer>
+    <p>© 2025 EZ Studio Variant. Alla rättigheter förbehållna.</p>
+  </footer>
 </body>
 </html>
